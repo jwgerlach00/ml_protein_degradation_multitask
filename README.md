@@ -29,6 +29,10 @@ Trained a **XGBoost** model and a **random forest** model for each target indepe
 <img src="images/xgboost_outcomes.png" alt="XGBoost outcomes" width="534" height="400">
 <img src="images/random_forest_outcomes.png" alt="random forest outcomes" width="534" height="400">
 
+## Multitask Neural Network
+<img src="images/preprocessing_slide.png" alt="multitask preprocessing flowchart" width="534" height="300">
+<img src="images/multitask_model.png" alt="multitask model" width="534" height="300">
+
 ## linkerology_multitask pip package
 
 Contains datastructures and functions for data processing, model architecture, training routines, and visualization.
