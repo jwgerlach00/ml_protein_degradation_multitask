@@ -9,7 +9,21 @@ Applying multitask learning to the linkerology data across 8 protein targets.
 ## Target-independent temporal split
 80/20 split, where the top 20% newest compounds are placed in the validation set to enchance the robustness of future predictions. Split was performed independently for each target.
 
-<img src="images/train_dist.png" width="534" height="400"> <img src="images/val_dist.png" width="534" height="400">
+<img src="images/train_dist.png" width="534" height="400">
+<img src="images/val_dist.png" width="534" height="400">
+
+## Binarization
+Due to a heavy skew towards active compounds, a relatively low 40nM threshold was chosen.
+
+<img src="images/40nm_train_activity_dist.png" width="534" height="400">
+<img src="images/40nm_val_activity_dist.png" width="534" height="400">
+
+Use of kernel density estimation for "auto-thresholding" was explored, but could not produce useful thresholds for most of the targets.
+
+<img src="images/kde_threshold.png" width="400" height="400">
+
+## Classical Modeling
+
 
 ## linkerology_multitask pip package
 
