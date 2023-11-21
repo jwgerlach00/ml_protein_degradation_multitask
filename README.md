@@ -1,5 +1,6 @@
 # Predictive Modeling of PROTACs using Degradation Data
 Published with permission from Arvinas.
+
 Applying multitask learning to the linkerology data across 8 protein targets.
 
 1. Comparing results w/ Random Forest, XGBoost, and single-target neural-net, binary and regression.
